@@ -71,9 +71,9 @@ public class BookStore {
         }
         if(book instanceof PaperBook paperBook){
             paperBook.currentQuantity(quantity) ; 
-            shippingService.shippingService(paperBook, address) ;
+            //shippingService.shippingService(paperBook, address) ;
         }else if(book instanceof EBook ebook){
-            mailService.mailService(ebook, email) ;
+           // mailService.mailService(ebook, email) ;
         }
         totalCost = quantity * book.getPrice() ;
         System.out.println("You have buy the book "+book.getTitle()+" Successully");
