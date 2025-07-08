@@ -21,6 +21,7 @@ public class QuantumBookStore {
         bookStore.removeBook();
         
         bookStore.buyBook("023head569",5,"kalaa8851@gmail.com","Zagazig") ;
+        bookStore.buyBook("KAMMMM120",4, "kalaa8851@gmail.com", "Zagazig") ;
         bookStore.buyBook("569head120",9,"kalaa8851@gmail.com","Zagazig") ;
     }   
 }
